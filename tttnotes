@@ -1,5 +1,5 @@
 user stories:
- - user can choose to be X or O
+ - choose your weapon X / O
  - a new round starts when the last round ends
  - score is kept (+1 to user or computer each round)
  - a restart button clears the score
@@ -23,13 +23,13 @@ or
 if ([r3[0], r3[1], r3[2]].every(el => el === "X" || el === "O"))
 
 column:
- if ([r1[0], r2[0], r3[0]].every(el => el === "X" || el === "O"))
- or
- if ([r1[1], r2[1], r3[1]].every(el => el === "X" || el === "O"))
- or
- if ([r1[2], r2[2], r3[2]].every(el => el === "X" || el === "O"))
+if ([r1[0], r2[0], r3[0]].every(el => el === "X" || el === "O"))
+or
+if ([r1[1], r2[1], r3[1]].every(el => el === "X" || el === "O"))
+or
+if ([r1[2], r2[2], r3[2]].every(el => el === "X" || el === "O"))
 
- diagonal:
- if ([r1[0], r2[1], r3[2]].every(el => el === "X" || el === "O"))
- or
- if ([r3[0], r2[1], r1[2]].every(el => el === "X" || el === "O"))
+diagonal:
+if ([r1[0], r2[1], r3[2]].every(el => el === "X" || el === "O"))
+or
+if ([r3[0], r2[1], r1[2]].every(el => el === "X" || el === "O"))

@@ -3,10 +3,47 @@ body {
   background-color: #f0f8ff;
 }
 
+.hidden {
+  display: none;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #f0f8ff;
+  width: 3vw;
+}
+
+.btn:active {
+  background-color: #e7eef1;
+}
+
 #title {
   font-size: 40px;
   text-align: center;
-  margin-top: 15vh;
+  margin-top: 10vh;
+}
+
+#choose_weap {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+#weaps {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+#weap_x {
+  margin-right: 1vw;
+}
+
+#weap_o {
+  margin-left: 1vw;
 }
 
 #board_container {
