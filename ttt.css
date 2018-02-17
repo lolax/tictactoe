@@ -1,0 +1,43 @@
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #f0f8ff;
+}
+
+#title {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+#board_container {
+  display: grid;
+  grid-template-rows: [r1] auto [r2] auto [r3] auto [r4];
+  grid-template-columns: [c1] auto [c2] auto [c3] auto [c4];
+  justify-content: center;
+  margin-top: 10vh;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.row1 {
+  border-right: 1px solid black;
+  padding: 5vh;
+}
+
+.row2 {
+  padding: 5vh;
+}
+
+.row3 {
+  border-left: 1px solid black;
+  padding: 5vh;
+}
+
+.col1 {
+  border-bottom: 1px solid black;
+}
+
+.col3 {
+  border-top: 1px solid black;
+}
