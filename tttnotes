@@ -4,6 +4,9 @@ user stories:
  - score is kept (+1 to user or computer each round)
  - a restart button clears the score
 
+ * choose your weapon box starts visible then becomes hidden when game starts to show scoreboard
+  game state:
+
  game state:
 
  board = [[A1, A2, A3], [B1, B2, B3], [C1, C2, C3]];
