@@ -25,6 +25,10 @@ body {
   margin-top: 10vh;
 }
 
+#choose {
+  font-size: 24px;
+}
+
 #choose_weap {
   text-align: center;
   margin-top: 5vh;
@@ -46,12 +50,27 @@ body {
   margin-left: 1vw;
 }
 
+#scoreboard {
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 24px;
+}
+
+#my_score {
+  margin-top: 2vh;
+  font-size: 20px;
+}
+
+#ur_score {
+  font-size: 20px;
+}
+
 #board_container {
   display: grid;
   grid-template-rows: [r1] auto [r2] auto [r3] auto [r4];
   grid-template-columns: [c1] auto [c2] auto [c3] auto [c4];
   justify-content: center;
-  margin-top: 10vh;
+  margin-top: 8vh;
   text-align: center;
   align-items: center;
   font-size: 30px;
@@ -77,4 +96,10 @@ body {
 
 .col3 {
   border-top: 1px solid black;
+}
+
+#msg {
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 24px;
 }
